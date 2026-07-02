@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mian.css" />
+    <title>Mastermind Game</title>
+    <link rel="icon" type="image/png" href="download.png" />
+  </head>
+  <body>
+    <div class="rul">
+      <h1 class="first" id="ruleTitle">How to play</h1>
+      <p id="ruleIntro">
+        There are 7 colors, and 4 of them are correct. You must pay close
+        attention to the correct colors, and the answer will appear in the
+        right-hand section according to the following colors.
+      </p>
+      <ul>
+        <li id="ruleRed">
+          If the opposite color is <strong style="color: red">red</strong> ,
+          this means that the color you selected does not exist.
+        </li>
+        <li id="ruleYellow">
+          If the opposite color is
+          <strong style="color: yellow">yellow</strong> , this means that the
+          color you selected is present but in the wrong place.
+        </li>
+        <li id="ruleGreen">
+          If the opposite color is
+          <strong style="color: #22c55e">green</strong> , it means the color you
+          selected is in the correct place.
+        </li>
+      </ul>
+      <button id="translateBtn">Translate to Arabic</button>
+    </div>
+
+    <script src="style.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
